@@ -10,8 +10,7 @@ class Race {
 	Float cost
 	Integer maxRunners = 100000
 	
-	static hasMany = [registrations : Registration,
-			sponsors : Sponsors]
+	static hasMany = [registrations : Registration]
 
     static constraints = {
     }
